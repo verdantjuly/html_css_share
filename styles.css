@@ -1,0 +1,12 @@
+/* 1. 인라인 스타일 > 2. 내부 스타일 > 3. 외부 스타일 순서로 적용 순서   */
+
+h1 {
+  font-size: 100px;
+  color: blueviolet;
+}
+p {
+  color: blueviolet;
+}
+strong {
+  color: blueviolet;
+}
