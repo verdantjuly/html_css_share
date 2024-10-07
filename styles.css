@@ -54,3 +54,17 @@ p#myId {
 p {
   color: green;
 }
+
+div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: beige;
+  border-radius: 50%;
+}
+
+div p {
+  color: blue;
+}
