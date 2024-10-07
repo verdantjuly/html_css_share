@@ -13,8 +13,15 @@ const datas = [
     image: "./profile.png",
     name: "차은우",
     intro:
-      "저는 동적 웹 애플리케이션을 만드는 것을 좋아하는 풀스택 개발자입니다, 저는 독서, 하이킹, 전 세계 여행을 즐깁니다.",
+      "저는 동적 웹 애플리케이션을 만드는 것을 좋아하는 프론트엔드 개발자입니다, 저는 독서, 하이킹, 전 세계 여행을 즐깁니다.",
     skills: [`Javascript`, `HTML`, `CSS`],
+  },
+  {
+    image: "./profile3.jpg",
+    name: "장원영",
+    intro:
+      "저는 다양한 분야의 경험을 좋아하는 풀스택 개발자입니다, 저는 클라이밍, 댄스, 국내 여행을 즐깁니다.",
+    skills: [`Javascript`, `HTML`, `CSS`, "React.js", "Node.js"],
   },
 ];
 
