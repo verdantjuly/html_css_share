@@ -1,0 +1,14 @@
+.table-title {
+  background-color: blue;
+  color: white;
+}
+
+.table-subtitle {
+  background-color: skyblue;
+}
+
+table {
+  border-color: blue;
+  width: 500px;
+  height: 300px;
+}
