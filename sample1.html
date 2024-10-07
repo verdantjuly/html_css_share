@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello HTML</title>
+    <link href="sample1.css" rel="stylesheet" />
   </head>
   <body>
     <h1>H1: 이것은 가장 큰 제목입니다.</h1>
@@ -73,7 +74,7 @@
       </tr>
     </table>
 
-    <!-- form 태그는 원래 백엔드 API와 소통 가능하다.-->
+    <!-- form 태그는 원래 action 속성을 통해 백엔드 API와 소통 가능하다.-->
     <form>
       <label for="name">이름 : </label>
       <input
@@ -81,6 +82,20 @@
         id="name"
         name="name"
         placeholder="이름을 입력하세요."
+      />
+      <label for="name">나이 : </label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="나이를 입력하세요."
+      />
+      <label for="name">생일 : </label>
+      <input
+        type="date"
+        id="birthday"
+        name="birthday"
+        placeholder="생일을 입력하세요."
       />
       <button type="submit">제출</button>
     </form>
