@@ -8,25 +8,28 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  height: 100vh;
 }
 
 h1 {
-  font-size: x-large;
+  font-size: 24px;
 }
 
 h2 {
-  font-size: large;
+  font-size: 20px;
 }
 
 p {
+  font-size: 18px;
+  color: #555;
   margin: 5px;
 }
 
-img {
+.profile-image {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
 }
 .card {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -36,34 +39,45 @@ img {
   text-align: center;
   background-color: white;
 }
-ul {
-  padding: 0px;
+.skills-box {
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  gap: 15px;
+  list-style-type: none;
 }
 
-li {
+.small-box {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li.small-box {
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: gainsboro;
-  margin: 5px;
-  list-style-type: none;
+  background-color: #d3d3d3;
+  min-width: 80px;
 }
 
-button {
+li.small-box:hover {
+  transform: scale(1.05);
+}
+
+button.small-box {
+  border-radius: 5px;
   color: white;
-
   border: none;
-  background-color: royalblue;
+  background-color: #007bff;
 }
 
-.card-inner-box {
-  font-weight: 500;
-  border-radius: 10px;
-  width: 110px;
-  height: 40px;
+button.small-box:hover {
+  background-color: #0056b3;
+  cursor: pointer;
 }
