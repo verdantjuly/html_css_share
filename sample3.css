@@ -1,0 +1,77 @@
+/* 1. 인라인 스타일 > 2. 내부 스타일 > 3. 외부 스타일 순서로 적용 순서   */
+/* 중복되는 속성은 나중에 적용한 것이 우선순위 */
+
+/* 전체 선택자 : HTML 전체에 적용 */
+* {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 100px;
+  color: greenyellow;
+}
+p {
+  color: greenyellow;
+}
+strong {
+  color: greenyellow;
+}
+
+/* div 내부의 p 태그 */
+div p {
+  color: brown;
+  font-size: 30px;
+}
+
+h1,
+h2,
+p {
+  font-weight: 900;
+}
+
+/* class 선택자 */
+
+.myClass {
+  color: black;
+}
+
+/* div 안의 myClass class */
+div.myClass {
+  color: black;
+}
+
+/* id 선택자 */
+
+#myId {
+  color: green;
+}
+p#myId {
+  color: green;
+}
+
+#header,
+.main-content,
+p {
+  color: green;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+  background-color: beige;
+  border-radius: 50%;
+}
+
+div p {
+  color: blue;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
