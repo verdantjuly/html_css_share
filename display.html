@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display 값에 따른 배치</title>
+    <style>
+      .block-example {
+        background-color: lightblue;
+        display: block;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .inline-example {
+        background-color: lightgreen;
+        display: inline;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .inline-block-example {
+        background-color: lightcoral;
+        display: inline-block;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .flex-container {
+        background-color: lightyellow;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .flex-item {
+        background-color: orange;
+        padding: 10px;
+        margin-right: 10px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+      }
+      .grid-item {
+        margin: 10px;
+        background-color: violet;
+        display: grid;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block-example">
+      이것은 block 요소입니다. 가로폭 전체를 사용합니다.
+    </div>
+    <br /><br />
+    <div class="inline-example">이것은</div>
+    <div class="inline-example">inline</div>
+    <div class="inline-example">요소입니다.</div>
+    <br /><br />
+    <div class="inline-block-example">이것은</div>
+    <div class="inline-block-example">inline-block</div>
+    <div class="inline-block-example">요소입니다.</div>
+    <br /><br />
+    <div class="flex-container">
+      <div class="flex-item">이것은</div>
+      <div class="flex-item">flex</div>
+      <div class="flex-item">요소입니다.</div>
+    </div>
+    <br /><br />
+    <div class="grid-container">
+      <div class="grid-item">이것은</div>
+      <div class="grid-item">grid</div>
+      <div class="grid-item">요소</div>
+      <div class="grid-item">입니다.</div>
+    </div>
+  </body>
+</html>
