@@ -23,6 +23,13 @@ const datas = [
       "저는 다양한 분야의 경험을 좋아하는 풀스택 개발자입니다, 저는 클라이밍, 댄스, 국내 여행을 즐깁니다.",
     skills: [`Javascript`, `HTML`, `CSS`, "React.js", "Node.js"],
   },
+  {
+    image: "./profile4.jpg",
+    name: "김세정",
+    intro:
+      "저는 사용자 편의성을 고려하는 앱 개발자입니다, 저는 베이킹, 사진 촬영, 영화 감상을 즐깁니다.",
+    skills: ["Swift", "Flutter", `Javascript`, `HTML`, `CSS`],
+  },
 ];
 
 function updateInfo(data) {
